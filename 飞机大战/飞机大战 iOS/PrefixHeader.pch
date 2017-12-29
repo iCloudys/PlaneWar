@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  飞机大战
+//
+//  Created by Mac on 2017/12/25.
+//  Copyright © 2017年 RUIPENG. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#if !DEBUG
+#define NSLog(fmt,...)
+#endif
+
+#import "TextureCache.h"
+#import "GameConst.h"
+#import "SoundManger.h"
+
+#endif /* PrefixHeader_pch */

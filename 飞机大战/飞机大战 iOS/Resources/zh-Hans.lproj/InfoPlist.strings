@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  飞机大战
+
+  Created by Mac on 2017/12/28.
+  Copyright © 2017年 RUIPENG. All rights reserved.
+*/
+
+CFBundleDisplayName = "飞机大作战";

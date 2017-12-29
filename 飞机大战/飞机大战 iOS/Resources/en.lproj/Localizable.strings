@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  飞机大战
+
+  Created by Mac on 2017/12/28.
+  Copyright © 2017年 RUIPENG. All rights reserved.
+*/
+
+"LOGO_NAME" = "logo_en";
+
+"RANKING_LIST" = "Ranking List";
+"START_GAME" = "Start";
+"CONTINUE" = "Continue";
+"MENU" = "Menu";
+"RESTART" = "Restart";

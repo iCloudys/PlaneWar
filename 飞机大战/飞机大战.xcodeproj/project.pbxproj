@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041C390B1FF0E4AC008E10D7 /* font.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 04B201D11FF0E24F003A774B /* font.TTF */; };
+		041C390F1FF0E52D008E10D7 /* StartScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C390E1FF0E52D008E10D7 /* StartScene.m */; };
+		041C39131FF0E729008E10D7 /* TextureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C39111FF0E729008E10D7 /* TextureCache.m */; };
+		041C39171FF0E8F4008E10D7 /* BGNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C39161FF0E8F4008E10D7 /* BGNode.m */; };
+		041C391A1FF1033A008E10D7 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C39191FF1033A008E10D7 /* GameScene.m */; };
+		041C391D1FF10A3D008E10D7 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C391C1FF10A3D008E10D7 /* Player.m */; };
+		041C39211FF11751008E10D7 /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C39201FF11751008E10D7 /* Bullet.m */; };
+		044D76851FEB8B3100A4678D /* gameArts-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 044D76831FEB8B3100A4678D /* gameArts-hd.plist */; };
+		044D76861FEB8B3100A4678D /* gameArts-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 044D76841FEB8B3100A4678D /* gameArts-hd.png */; };
+		04A3473D1FF3566400068F30 /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3473C1FF3566400068F30 /* Enemy.m */; };
+		04B201CF1FEE7BB9003A774B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B201CE1FEE7BB9003A774B /* HomeViewController.m */; };
+		04D1A6AF1FE8F4F9001BCD7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D1A6AE1FE8F4F9001BCD7F /* AppDelegate.m */; };
+		04D1A6B21FE8F4F9001BCD7F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D1A6B11FE8F4F9001BCD7F /* GameViewController.m */; };
+		04D1A6B81FE8F4F9001BCD7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D1A6B61FE8F4F9001BCD7F /* LaunchScreen.storyboard */; };
+		04D1A6BB1FE8F4F9001BCD7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D1A6BA1FE8F4F9001BCD7F /* main.m */; };
+		04D1A6D41FE8F4F9001BCD7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D1A6A51FE8F4F9001BCD7F /* Assets.xcassets */; };
+		04E072791FECE3F7004D9FC4 /* boss_blowup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E072741FECE3F6004D9FC4 /* boss_blowup.mp3 */; };
+		04E0727A1FECE3F7004D9FC4 /* bg_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E072751FECE3F6004D9FC4 /* bg_music.mp3 */; };
+		04E0727B1FECE3F7004D9FC4 /* enemy_blowup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E072761FECE3F6004D9FC4 /* enemy_blowup.mp3 */; };
+		04E0727C1FECE3F7004D9FC4 /* boss_appear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E072771FECE3F6004D9FC4 /* boss_appear.mp3 */; };
+		04E0727D1FECE3F7004D9FC4 /* hero_blowup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04E072781FECE3F6004D9FC4 /* hero_blowup.mp3 */; };
+		04E0F7251FF603E50007186C /* SoundManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0F7241FF603E50007186C /* SoundManger.m */; };
+		04EFCD3B1FF4F7EC00314334 /* OverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EFCD3A1FF4F7EC00314334 /* OverScene.m */; };
+		04EFCD3F1FF4FC9B00314334 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EFCD411FF4FC9B00314334 /* InfoPlist.strings */; };
+		04EFCD451FF4FD9D00314334 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EFCD471FF4FD9D00314334 /* Localizable.strings */; };
+		04F1C1F61FF3693B0093B773 /* EnemyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F1C1F51FF3693B0093B773 /* EnemyManager.m */; };
+		04F1C1FD1FF4C4670093B773 /* PauseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F1C1FC1FF4C4670093B773 /* PauseScene.m */; };
+		04F1C2001FF4CA3C0093B773 /* HistoryScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F1C1FF1FF4CA3C0093B773 /* HistoryScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041C390D1FF0E52D008E10D7 /* StartScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartScene.h; sourceTree = "<group>"; };
+		041C390E1FF0E52D008E10D7 /* StartScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartScene.m; sourceTree = "<group>"; };
+		041C39101FF0E606008E10D7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		041C39111FF0E729008E10D7 /* TextureCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextureCache.m; path = "飞机大战 iOS/Tool/TextureCache.m"; sourceTree = SOURCE_ROOT; };
+		041C39121FF0E729008E10D7 /* TextureCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextureCache.h; path = "飞机大战 iOS/Tool/TextureCache.h"; sourceTree = SOURCE_ROOT; };
+		041C39151FF0E8F4008E10D7 /* BGNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGNode.h; sourceTree = "<group>"; };
+		041C39161FF0E8F4008E10D7 /* BGNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGNode.m; sourceTree = "<group>"; };
+		041C39181FF1033A008E10D7 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		041C39191FF1033A008E10D7 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		041C391B1FF10A3D008E10D7 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		041C391C1FF10A3D008E10D7 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		041C391E1FF10EF9008E10D7 /* GameConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConst.h; sourceTree = "<group>"; };
+		041C391F1FF11751008E10D7 /* Bullet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		041C39201FF11751008E10D7 /* Bullet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
+		044D76831FEB8B3100A4678D /* gameArts-hd.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "gameArts-hd.plist"; sourceTree = "<group>"; };
+		044D76841FEB8B3100A4678D /* gameArts-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameArts-hd.png"; sourceTree = "<group>"; };
+		04A3473B1FF3566400068F30 /* Enemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		04A3473C1FF3566400068F30 /* Enemy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Enemy.m; sourceTree = "<group>"; };
+		04B201CD1FEE7BB9003A774B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		04B201CE1FEE7BB9003A774B /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		04B201D11FF0E24F003A774B /* font.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = font.TTF; sourceTree = "<group>"; };
+		04D1A6A51FE8F4F9001BCD7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D1A6AA1FE8F4F9001BCD7F /* 飞机大战.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "飞机大战.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D1A6AD1FE8F4F9001BCD7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04D1A6AE1FE8F4F9001BCD7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04D1A6B01FE8F4F9001BCD7F /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		04D1A6B11FE8F4F9001BCD7F /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		04D1A6B71FE8F4F9001BCD7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D1A6B91FE8F4F9001BCD7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D1A6BA1FE8F4F9001BCD7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E072741FECE3F6004D9FC4 /* boss_blowup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boss_blowup.mp3; sourceTree = "<group>"; };
+		04E072751FECE3F6004D9FC4 /* bg_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg_music.mp3; sourceTree = "<group>"; };
+		04E072761FECE3F6004D9FC4 /* enemy_blowup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enemy_blowup.mp3; sourceTree = "<group>"; };
+		04E072771FECE3F6004D9FC4 /* boss_appear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boss_appear.mp3; sourceTree = "<group>"; };
+		04E072781FECE3F6004D9FC4 /* hero_blowup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hero_blowup.mp3; sourceTree = "<group>"; };
+		04E0F7231FF603E50007186C /* SoundManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundManger.h; sourceTree = "<group>"; };
+		04E0F7241FF603E50007186C /* SoundManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundManger.m; sourceTree = "<group>"; };
+		04EFCD391FF4F7EC00314334 /* OverScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverScene.h; sourceTree = "<group>"; };
+		04EFCD3A1FF4F7EC00314334 /* OverScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverScene.m; sourceTree = "<group>"; };
+		04EFCD3C1FF4FC3100314334 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		04EFCD401FF4FC9B00314334 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EFCD421FF4FCAF00314334 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		04EFCD461FF4FD9D00314334 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04EFCD481FF4FD9E00314334 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		04F1C1F41FF3693B0093B773 /* EnemyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnemyManager.h; sourceTree = "<group>"; };
+		04F1C1F51FF3693B0093B773 /* EnemyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnemyManager.m; sourceTree = "<group>"; };
+		04F1C1F71FF488B50093B773 /* PlaneProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaneProtocol.h; sourceTree = "<group>"; };
+		04F1C1FB1FF4C4670093B773 /* PauseScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PauseScene.h; sourceTree = "<group>"; };
+		04F1C1FC1FF4C4670093B773 /* PauseScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PauseScene.m; sourceTree = "<group>"; };
+		04F1C1FE1FF4CA3B0093B773 /* HistoryScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryScene.h; sourceTree = "<group>"; };
+		04F1C1FF1FF4CA3C0093B773 /* HistoryScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D1A6A71FE8F4F9001BCD7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041C390C1FF0E51F008E10D7 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				041C390D1FF0E52D008E10D7 /* StartScene.h */,
+				041C390E1FF0E52D008E10D7 /* StartScene.m */,
+				041C39181FF1033A008E10D7 /* GameScene.h */,
+				041C39191FF1033A008E10D7 /* GameScene.m */,
+				04F1C1FB1FF4C4670093B773 /* PauseScene.h */,
+				04F1C1FC1FF4C4670093B773 /* PauseScene.m */,
+				04F1C1FE1FF4CA3B0093B773 /* HistoryScene.h */,
+				04F1C1FF1FF4CA3C0093B773 /* HistoryScene.m */,
+				04EFCD391FF4F7EC00314334 /* OverScene.h */,
+				04EFCD3A1FF4F7EC00314334 /* OverScene.m */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		041C39141FF0E8D0008E10D7 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				041C39151FF0E8F4008E10D7 /* BGNode.h */,
+				041C39161FF0E8F4008E10D7 /* BGNode.m */,
+				04F1C1F71FF488B50093B773 /* PlaneProtocol.h */,
+				041C391B1FF10A3D008E10D7 /* Player.h */,
+				041C391C1FF10A3D008E10D7 /* Player.m */,
+				04A3473B1FF3566400068F30 /* Enemy.h */,
+				04A3473C1FF3566400068F30 /* Enemy.m */,
+				04F1C1F41FF3693B0093B773 /* EnemyManager.h */,
+				04F1C1F51FF3693B0093B773 /* EnemyManager.m */,
+				041C391F1FF11751008E10D7 /* Bullet.h */,
+				041C39201FF11751008E10D7 /* Bullet.m */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
+		04B201D01FF0DA0A003A774B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04B201D11FF0E24F003A774B /* font.TTF */,
+				04D1A6A51FE8F4F9001BCD7F /* Assets.xcassets */,
+				044D76831FEB8B3100A4678D /* gameArts-hd.plist */,
+				044D76841FEB8B3100A4678D /* gameArts-hd.png */,
+				04EFCD411FF4FC9B00314334 /* InfoPlist.strings */,
+				04EFCD471FF4FD9D00314334 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04D1A69B1FE8F4F8001BCD7F = {
+			isa = PBXGroup;
+			children = (
+				04E072731FECE3F6004D9FC4 /* music */,
+				04D1A6AC1FE8F4F9001BCD7F /* 飞机大战 iOS */,
+				04D1A6AB1FE8F4F9001BCD7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D1A6AB1FE8F4F9001BCD7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D1A6AA1FE8F4F9001BCD7F /* 飞机大战.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D1A6AC1FE8F4F9001BCD7F /* 飞机大战 iOS */ = {
+			isa = PBXGroup;
+			children = (
+				04E0F7221FF603C80007186C /* Tool */,
+				041C39141FF0E8D0008E10D7 /* Node */,
+				041C390C1FF0E51F008E10D7 /* Scene */,
+				04B201D01FF0DA0A003A774B /* Resources */,
+				04D1A6AD1FE8F4F9001BCD7F /* AppDelegate.h */,
+				04D1A6AE1FE8F4F9001BCD7F /* AppDelegate.m */,
+				04D1A6B01FE8F4F9001BCD7F /* GameViewController.h */,
+				04D1A6B11FE8F4F9001BCD7F /* GameViewController.m */,
+				04D1A6B61FE8F4F9001BCD7F /* LaunchScreen.storyboard */,
+				04D1A6B91FE8F4F9001BCD7F /* Info.plist */,
+				04D1A6BA1FE8F4F9001BCD7F /* main.m */,
+				04B201CD1FEE7BB9003A774B /* HomeViewController.h */,
+				04B201CE1FEE7BB9003A774B /* HomeViewController.m */,
+				041C39101FF0E606008E10D7 /* PrefixHeader.pch */,
+				041C391E1FF10EF9008E10D7 /* GameConst.h */,
+			);
+			path = "飞机大战 iOS";
+			sourceTree = "<group>";
+		};
+		04E072731FECE3F6004D9FC4 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				04E072741FECE3F6004D9FC4 /* boss_blowup.mp3 */,
+				04E072751FECE3F6004D9FC4 /* bg_music.mp3 */,
+				04E072761FECE3F6004D9FC4 /* enemy_blowup.mp3 */,
+				04E072771FECE3F6004D9FC4 /* boss_appear.mp3 */,
+				04E072781FECE3F6004D9FC4 /* hero_blowup.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		04E0F7221FF603C80007186C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				041C39121FF0E729008E10D7 /* TextureCache.h */,
+				041C39111FF0E729008E10D7 /* TextureCache.m */,
+				04E0F7231FF603E50007186C /* SoundManger.h */,
+				04E0F7241FF603E50007186C /* SoundManger.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D1A6A91FE8F4F9001BCD7F /* 飞机大战 iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D1A6D81FE8F4F9001BCD7F /* Build configuration list for PBXNativeTarget "飞机大战 iOS" */;
+			buildPhases = (
+				04D1A6A61FE8F4F9001BCD7F /* Sources */,
+				04D1A6A71FE8F4F9001BCD7F /* Frameworks */,
+				04D1A6A81FE8F4F9001BCD7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "飞机大战 iOS";
+			productName = "飞机大战 iOS";
+			productReference = 04D1A6AA1FE8F4F9001BCD7F /* 飞机大战.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D1A69C1FE8F4F8001BCD7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = RUIPENG;
+				TargetAttributes = {
+					04D1A6A91FE8F4F9001BCD7F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04D1A69F1FE8F4F8001BCD7F /* Build configuration list for PBXProject "飞机大战" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 04D1A69B1FE8F4F8001BCD7F;
+			productRefGroup = 04D1A6AB1FE8F4F9001BCD7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D1A6A91FE8F4F9001BCD7F /* 飞机大战 iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D1A6A81FE8F4F9001BCD7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041C390B1FF0E4AC008E10D7 /* font.TTF in Resources */,
+				04EFCD451FF4FD9D00314334 /* Localizable.strings in Resources */,
+				044D76861FEB8B3100A4678D /* gameArts-hd.png in Resources */,
+				04E072791FECE3F7004D9FC4 /* boss_blowup.mp3 in Resources */,
+				04E0727B1FECE3F7004D9FC4 /* enemy_blowup.mp3 in Resources */,
+				04E0727A1FECE3F7004D9FC4 /* bg_music.mp3 in Resources */,
+				04E0727D1FECE3F7004D9FC4 /* hero_blowup.mp3 in Resources */,
+				04D1A6B81FE8F4F9001BCD7F /* LaunchScreen.storyboard in Resources */,
+				04E0727C1FECE3F7004D9FC4 /* boss_appear.mp3 in Resources */,
+				04D1A6D41FE8F4F9001BCD7F /* Assets.xcassets in Resources */,
+				04EFCD3F1FF4FC9B00314334 /* InfoPlist.strings in Resources */,
+				044D76851FEB8B3100A4678D /* gameArts-hd.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D1A6A61FE8F4F9001BCD7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D1A6B21FE8F4F9001BCD7F /* GameViewController.m in Sources */,
+				04D1A6BB1FE8F4F9001BCD7F /* main.m in Sources */,
+				04F1C1F61FF3693B0093B773 /* EnemyManager.m in Sources */,
+				041C391D1FF10A3D008E10D7 /* Player.m in Sources */,
+				04A3473D1FF3566400068F30 /* Enemy.m in Sources */,
+				041C39131FF0E729008E10D7 /* TextureCache.m in Sources */,
+				041C390F1FF0E52D008E10D7 /* StartScene.m in Sources */,
+				04EFCD3B1FF4F7EC00314334 /* OverScene.m in Sources */,
+				041C39211FF11751008E10D7 /* Bullet.m in Sources */,
+				04B201CF1FEE7BB9003A774B /* HomeViewController.m in Sources */,
+				041C391A1FF1033A008E10D7 /* GameScene.m in Sources */,
+				04E0F7251FF603E50007186C /* SoundManger.m in Sources */,
+				041C39171FF0E8F4008E10D7 /* BGNode.m in Sources */,
+				04F1C2001FF4CA3C0093B773 /* HistoryScene.m in Sources */,
+				04F1C1FD1FF4C4670093B773 /* PauseScene.m in Sources */,
+				04D1A6AF1FE8F4F9001BCD7F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04D1A6B61FE8F4F9001BCD7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D1A6B71FE8F4F9001BCD7F /* Base */,
+				04EFCD3C1FF4FC3100314334 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04EFCD411FF4FC9B00314334 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EFCD401FF4FC9B00314334 /* en */,
+				04EFCD421FF4FCAF00314334 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04EFCD471FF4FD9D00314334 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EFCD461FF4FD9D00314334 /* en */,
+				04EFCD481FF4FD9E00314334 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D1A6D61FE8F4F9001BCD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		04D1A6D71FE8F4F9001BCD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		04D1A6D91FE8F4F9001BCD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GB56S2965F;
+				GCC_PREFIX_HEADER = "$(SRC_ROOT)飞机大战 iOS/PrefixHeader.pch";
+				INFOPLIST_FILE = "飞机大战 iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingshuo.planewar;
+				PRODUCT_NAME = "飞机大战";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D1A6DA1FE8F4F9001BCD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GB56S2965F;
+				GCC_PREFIX_HEADER = "$(SRC_ROOT)飞机大战 iOS/PrefixHeader.pch";
+				INFOPLIST_FILE = "飞机大战 iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingshuo.planewar;
+				PRODUCT_NAME = "飞机大战";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D1A69F1FE8F4F8001BCD7F /* Build configuration list for PBXProject "飞机大战" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D1A6D61FE8F4F9001BCD7F /* Debug */,
+				04D1A6D71FE8F4F9001BCD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D1A6D81FE8F4F9001BCD7F /* Build configuration list for PBXNativeTarget "飞机大战 iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D1A6D91FE8F4F9001BCD7F /* Debug */,
+				04D1A6DA1FE8F4F9001BCD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D1A69C1FE8F4F8001BCD7F /* Project object */;
+}
